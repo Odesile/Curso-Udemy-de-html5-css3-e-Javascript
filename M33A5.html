@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 curso udemy</title>
+    <style>
+        #primeiro_cabecario{
+            background:red;
+        }
+        .img-in-text{
+            width: 50px;
+            height: 50px;
+        }
+        .divum{
+            background: cornflowerblue;
+        }
+        .spaninline{
+            font-size: large;
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="primeiro_cabecario">Tags htmls para textos e links, imagens e etc.</h1>
+    <h2>Tags inline :</h2><p>
+        <b>Negrito com bold, ou seja, o estado físico, </b><br>
+        <strong>Negrito com strong, ou seja, o estado lógico, </strong><br>
+        <i>Itálico, </i><br>
+        <em>Emphasis, deixa também em itálico, porém, modifica a parte lógica do texto</em><br>
+        <a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/24624900#overview" target="_blank">Link para algum site (curso da udemy) e Rel para definir a relação do link com o conteúdo do site</a><br>
+        <img class="img-in-text" src="data:image/png;base64,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" alt="Logo da Mdn">
+    </p>
+        <p><del>Tag del que risca a palavra</del><ins>ins de insert para inserir uma nova palavra </ins>dolor<sup>tag Sup, para elevar uma palavra</sup>, 
+        <s>tag s feita pra colocar esse risquinhos</s><u>tag u para colocar underline no texto</u><small>tag small feita para colocar a palavra ou frase menor</small>
+        <sub>tag sub, feita pra descer uma palavra ou frase</sub><q>tag Q de quotation feita para citação</q>
+    </p>
+
+    <h2 class="tag_outlines">Agora as tag outlines</h2>
+    <blockquote cite="Aqui colocamos o link para validar nossa citação">Agora sim estamos fazendo uma citação</blockquote>
+    <p>Tag hr, feita para colocar uma linha entre parágrafos</p>
+    <hr>
+    <p>Tag cpde, que deixa o texto diferente para códigos: <code>console.log("Hello!!")</code></p>
+    <p>Tag de texto pre-formatada, ela mantém tudo do jeito que estiver!</p>
+    <pre><codes>def funcao-corrige erro(numero)
+        catapimbas
+        return carambolas
+        end
+    </codes></pre>
+
+    <p>tag span e div, são containers genéricos, porém o span é inline, já a div é semântica</p>
+    <div class="divum">Aqui tem uma div</div>
+    <p>provando que o <span class="spaninline">span</span> é inline</p>
+</body>
+</html>
