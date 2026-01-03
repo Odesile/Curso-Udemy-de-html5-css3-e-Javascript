@@ -58,6 +58,29 @@
             margin: 20px;
         }
 
+        .lista-nav ul li a{
+            text-decoration: none;
+            color:brown;
+            text-transform: capitalize;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            background-color: lightgray;
+        }
+
+        nav ul li a:hover{
+            background-color: gray;
+            color: white;
+        }
+
+        .lista-nav ul{
+            background-color: darkgray;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+
 
     </style>
 </head>
@@ -107,6 +130,14 @@
                 <dt>JavaScript</dt>
                 <dd>Linguagem de programação para adicionar interatividade às páginas web.</dd>
             </dl>
+            <h2 class="cabecalho-navi">Navigation</h2>
+            <nav class="lista-nav">
+                <ul class="lista">
+                    <li><a href="#instagram" id="instagram">instagram</a></li>
+                    <li><a href="#facebook" id="facebook">facebook</a></li>
+                    <li><a href="#twitter" id="twitter">twitter</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
